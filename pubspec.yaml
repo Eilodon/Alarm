@@ -1,0 +1,29 @@
+name: notes_calendar_fpt
+description: Notes + Calendar + Reminders + FPT.AI TTS/STT
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  http: ^1.2.2
+  table_calendar: ^3.0.9
+  sqflite: ^2.3.3+1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.2
+  audioplayers: ^6.1.0
+  record: ^5.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
